@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="morning.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id= "1">
+  </div>
+  
+  <script>
+    
+      var countFirst=0;
+      var b1 = ["W","a","k","e"," ","u","p",","," ","N","e","o",".",".",".","","","","","","","","","","","T","h","e"," ","M","a","t","r","i","x"," ","h","a","s"," ","y","o","u",".",".",".","","","","","","","","","","F","o","l","l","o","w"," ","t","h","e"," ","w","h","i","t","e"," ","r","a","b","b","i","t",".",".",".","","","","","","","","","","K","n","o","c","k",","," ","k","n","o","c","k",","," ","N","e","o","."];
+      var t1=setInterval(writeFirstSentence,200);
+      function writeFirstSentence() {
+          
+          var a1 = document.getElementById("1");
+          var d1=document.createTextNode(b1[countFirst]);
+          a1.appendChild(d1);
+          countFirst++;
+          if (countFirst==b1.length){clearInterval(t1);}
+          switch (countFirst) {
+            case 24:
+            case 55:
+            case 90:
+            document.getElementById('1').innerHTML = "";
+          }
+        }    
+     
+      
+     
+     
+        
+  </script>
+</body>
+</html>
+
+<!--var b = {a,k,e, ,u,p, ,N,e,o,.,.,.};
+
+    var c= b[i];
+    var t=setInterval(writeLetter,1000);
+    
+    function Matrix() {}
+    Matrix();
+
+    }
+
+    var t=setInterval(writeLetter,1000);
+
+    if(true) {clearInterval(t);}
+
+    for (var i=0;i<b.length;i++){
+
+     
+
+               
+      
+      var countSecondInterval = 0;
+      var t23=setInterval(interval23,3000);
+      function interval23() {
+        if (countSecondInterval>0) {
+          document.getElementById('1').innerHTML = "";
+          clearInterval(t23);
+          }
+          countSecondInterval++
+      }
+
+      var countThird=0;
+      var b3 = ["F","o","l","l","o","w"," ","t","h","e"," ","w","h","i","t","e"," ","r","a","b","b","i","t",".",".","."];
+      var t3=setInterval(writeThirdSentence,200);
+        function writeThirdSentence() {
+          
+          var a3 = document.getElementById("1");
+          var d3=document.createTextNode(b3[countThird]);
+          a3.appendChild(d3);
+          countThird++;
+          if (countThird==b3.length){clearInterval(t3);}
+        } 
+      
+      var countThirdInterval = 0;
+      var t34=setInterval(interval34,3000);
+      function interval34() {
+        if (countThirdInterval>0) {
+          document.getElementById('1').innerHTML = "";
+          clearInterval(t34);
+          }
+          countThirdInterval++
+      }
+  
+      var countFourth=0;
+      var b4 = ["K","n","o","c","k",","," ","K","n","o","c","k",","," ","N","e","o",".",".","."];
+      var t4=setInterval(writeFourthSentence,200);
+        function writeFourthSentence() {
+          
+          var a4 = document.getElementById("1");
+          var d4=document.createTextNode(b4[countFourth]);
+          a4.appendChild(d4);
+          countFourth++;
+          if (countFourth==b4.length){clearInterval(t4);}
+        }  
+
+
+        var countFirstInterval = 0;
+      var t12=setInterval(interval12,3000);
+      function interval12() {
+        if (countFirstInterval>0) {
+          document.getElementById('1').innerHTML = "";
+          clearInterval(t12);
+          }
+          countFirstInterval++
+      }
+
+       var countSecond=0;
+      var b2 = ["T","h","e"," ","M","a","t","r","i","x"," ","h","a","s"," ","y","o","u",".",".","."];
+      var t2=setInterval(writeSecondSentence,200);
+        function writeSecondSentence() {
+          
+          var a2 = document.getElementById("1");
+          var d2=document.createTextNode(b2[countSecond]);
+          a2.appendChild(d2);
+          countSecond++;
+          if (countSecond==b2.length){clearInterval(t2);}
+        }
+
+        

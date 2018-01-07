@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+}
+
+div {
+  color: transparent;
+  font-size: 30px;
+  text-shadow: 0 0 1px rgba(168,225,192,1);
+}
